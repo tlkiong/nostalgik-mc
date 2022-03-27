@@ -16,7 +16,11 @@
       },
       "extends": [
         "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/template/process-inline-templates"
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:prettier/recommended"
+      ],
+      "plugins": [
+        "sort-imports-es6-autofix"
       ],
       "rules": {
         "@angular-eslint/directive-selector": [
@@ -34,7 +38,12 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "sort-imports-es6-autofix/sort-imports-es6": [2, {
+          "ignoreCase": false,
+          "ignoreMemberSort": false,
+          "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+        }]
       }
     },
     {
@@ -45,6 +54,15 @@
         "plugin:@angular-eslint/template/recommended"
       ],
       "rules": {}
+    },
+    {
+      "files": ["*.html"],
+      "excludedFiles": ["*inline-template-*.component.html"],
+      "extends": ["plugin:prettier/recommended"],
+      "rules": {
+        // NOTE: WE ARE OVERRIDING THE DEFAULT CONFIG TO ALWAYS SET THE PARSER TO ANGULAR (SEE BELOW)
+        "prettier/prettier": ["error", { "parser": "angular" }]
+      }
     }
   ]
 }
