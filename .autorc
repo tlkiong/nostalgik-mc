@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    "npm",
+    "conventional-commits",
+    "first-time-contributor",
+    [
+      "released",
+      {
+        "label": ":shipit:",
+        "prereleaseLabel": "🚧"
+      }
+    ],
+    [
+      "gh-pages",
+      {
+        "buildCommand": "yarn build:release",
+        "dir": "./dist/nostalgik-mc"
+      }
+    ]
+  ],
+  "owner": "tlkiong",
+  "repo": "nostalgik-mc",
+  "name": "Kiong",
+  "email": "kiong90@gmail.com"
+}

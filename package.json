@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "prepare": "husky install",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "build:release": "yarn build --configuration=production --aot --baseHref=/nostalgik-mc/"
   },
   "private": true,
   "dependencies": {
@@ -33,12 +34,17 @@
     "@angular-eslint/template-parser": "13.1.0",
     "@angular/cli": "~13.3.0",
     "@angular/compiler-cli": "~13.3.0",
+    "@auto-it/conventional-commits": "^10.36.5",
+    "@auto-it/first-time-contributor": "^10.36.5",
+    "@auto-it/gh-pages": "^10.36.5",
+    "@auto-it/released": "^10.36.5",
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "@typescript-eslint/eslint-plugin": "5.11.0",
     "@typescript-eslint/parser": "5.11.0",
+    "auto": "^10.36.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.5.0",
@@ -63,5 +69,7 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
-  }
+  },
+  "repository": "tlkiong/nostalgik-mc",
+  "author": "Kiong <kiong90@gmail.com>"
 }
