@@ -51,6 +51,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "lint-staged": ">=10",
     "prettier": "^2.6.1",
     "prettier-eslint": "^13.0.0",
     "typescript": "~4.6.2"
@@ -59,5 +60,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
