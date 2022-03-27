@@ -1,3 +1,15 @@
+# v0.2.0 (Sun Mar 27 2022)
+
+#### 🚀 Enhancement
+
+- feat: trigger release ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.1.0 (Sun Mar 27 2022)
 
 :tada: This release contains work from a new contributor! :tada:
