@@ -1,3 +1,19 @@
+# v0.4.0 (Tue Mar 29 2022)
+
+#### 🚀 Enhancement
+
+- feat: hide full page loader ([@tlkiong](https://github.com/tlkiong))
+
+#### ⚠️ Pushed to `main`
+
+- test: fix app component failing spec ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.3.0 (Tue Mar 29 2022)
 
 #### 🚀 Enhancement
