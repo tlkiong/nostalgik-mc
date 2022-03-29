@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./loader-full-page.component.scss'],
 })
 export class LoaderFullPageComponent implements OnInit {
-  isLoading = true;
+  isLoading = false;
   constructor() {}
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.isLoading = false;
-    }, 2000);
+    // setTimeout(() => {
+    //   this.isLoading = false;
+    // }, 2000);
   }
 }
