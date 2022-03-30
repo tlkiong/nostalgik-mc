@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+
+.header-container {
+  height: var(--header-height);
+  flex-shrink: 0;
+}
+.content-container {
+  background-color: red;
+  flex: 1 0 auto;
+}
