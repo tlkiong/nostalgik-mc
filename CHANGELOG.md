@@ -1,3 +1,24 @@
+# v0.5.0 (Wed Mar 30 2022)
+
+#### 🚀 Enhancement
+
+- feat: add header & footer ([@tlkiong](https://github.com/tlkiong))
+
+#### 🐛 Bug Fix
+
+- fix: inline svg taking up space on the page ([@tlkiong](https://github.com/tlkiong))
+- fix: update svg use to not use xlink ([@tlkiong](https://github.com/tlkiong))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github-personal:tlkiong/nostalgik-mc ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.4.0 (Tue Mar 29 2022)
 
 #### 🚀 Enhancement
