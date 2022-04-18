@@ -1,3 +1,20 @@
+# v0.6.0 (Mon Apr 18 2022)
+
+#### 🚀 Enhancement
+
+- feat: add gallery & staff component. Also add skinview3d ([@tlkiong](https://github.com/tlkiong))
+- feat: add empty component for all pages & link them in header component ([@tlkiong](https://github.com/tlkiong))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github-personal:tlkiong/nostalgik-mc ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.5.0 (Wed Mar 30 2022)
 
 #### 🚀 Enhancement
