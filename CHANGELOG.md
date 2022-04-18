@@ -1,3 +1,16 @@
+# v0.6.1 (Mon Apr 18 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github-personal:tlkiong/nostalgik-mc ([@tlkiong](https://github.com/tlkiong))
+- test: fix failing spec ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.6.0 (Mon Apr 18 2022)
 
 #### 🚀 Enhancement
