@@ -9,6 +9,7 @@ import { Subject, take, takeUntil } from 'rxjs';
   selector: 'app-staff',
   templateUrl: './staff.component.html',
   styleUrls: ['./staff.component.scss'],
+  providers: [SimpleModalService],
 })
 export class StaffComponent implements OnInit, OnDestroy {
   STAFF_INFO: StaffInfo[] = [

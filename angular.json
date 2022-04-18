@@ -106,7 +106,9 @@
               "src/styles.scss",
               "./node_modules/ngx-simple-modal/styles/simple-modal.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/skinview3d/bundles/skinview3d.bundle.js"
+            ]
           },
           "configurations": {
             "ci": {

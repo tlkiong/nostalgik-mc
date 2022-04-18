@@ -1,4 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { RouterTestingModule } from '@angular/router/testing';
+import { SimpleModalService } from 'ngx-simple-modal';
 
 import { StaffComponent } from './staff.component';
 
@@ -8,9 +10,9 @@ describe('StaffComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StaffComponent ]
-    })
-    .compileComponents();
+      imports: [RouterTestingModule],
+      declarations: [StaffComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
