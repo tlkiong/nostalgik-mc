@@ -1,1 +1,6 @@
-<p>staff works!</p>
+<div class="images-container">
+  <figure *ngFor="let staffInfo of STAFF_INFO" (click)="showImg(staffInfo)">
+    <img [src]="'assets/staffs/' + staffInfo.path" [alt]="staffInfo.ign" />
+    <figcaption>{{ staffInfo.ign }}</figcaption>
+  </figure>
+</div>

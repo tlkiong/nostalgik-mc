@@ -23,3 +23,16 @@
     height: 100%;
   }
 }
+
+.images-container {
+  display: grid;
+  figure {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    figcaption {
+      margin-top: 5px;
+    }
+  }
+}
