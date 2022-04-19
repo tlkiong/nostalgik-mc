@@ -1,3 +1,19 @@
+# v0.7.0 (Tue Apr 19 2022)
+
+#### 🚀 Enhancement
+
+- feat: add 404 page for redirect ([@tlkiong](https://github.com/tlkiong))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github-personal:tlkiong/nostalgik-mc ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.6.1 (Mon Apr 18 2022)
 
 #### ⚠️ Pushed to `main`
