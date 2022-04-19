@@ -1,3 +1,19 @@
+# v0.7.3 (Tue Apr 19 2022)
+
+#### 🐛 Bug Fix
+
+- fix: 404 page 2 ([@tlkiong](https://github.com/tlkiong))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github-personal:tlkiong/nostalgik-mc ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.7.2 (Tue Apr 19 2022)
 
 #### 🐛 Bug Fix
