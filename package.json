@@ -9,7 +9,7 @@
     "test": "ng test",
     "prepare": "husky install",
     "lint": "ng lint",
-    "build:release": "yarn build --configuration=production --aot --baseHref=/nostalgik-mc/"
+    "build:release": "yarn build --configuration=production --aot --baseHref=/"
   },
   "private": true,
   "dependencies": {
