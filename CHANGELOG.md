@@ -1,3 +1,15 @@
+# v0.7.6 (Sun Apr 24 2022)
+
+#### 🐛 Bug Fix
+
+- fix: 404 page 5 ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.7.5 (Sun Apr 24 2022)
 
 #### 🐛 Bug Fix
