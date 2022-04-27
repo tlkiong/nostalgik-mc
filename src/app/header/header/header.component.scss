@@ -8,6 +8,7 @@ $padding-width: 30px;
   position: fixed;
   width: calc(100% - #{$padding-width} - #{$padding-width});
   padding: 0 $padding-width;
+  background-color: white;
   .routes-container {
     display: flex;
     a {
