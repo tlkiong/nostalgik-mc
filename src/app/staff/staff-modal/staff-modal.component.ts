@@ -3,7 +3,7 @@ import { SimpleModalComponent } from 'ngx-simple-modal';
 import { StaffInfo } from '../interfaces/staff-info.interface';
 
 declare const skinview3d: any;
-
+declare const window: any;
 @Component({
   selector: 'app-staff-modal',
   templateUrl: './staff-modal.component.html',
@@ -25,17 +25,18 @@ export class StaffModalComponent
   }
 
   _startSkinView3d() {
-    const ele = document.getElementById('skin-container');
+    const canvas = document.getElementById('skin-container');
     const skin = `assets/staffs/${this.path}`;
     const skinViewer = new skinview3d.SkinViewer({
-      canvas: ele,
-      width: 300,
-      height: 400,
+      canvas,
+      width: undefined,
+      height: undefined,
       skin,
     });
+    window.xx = skinViewer;
     // Change viewer size
-    skinViewer.width = 600;
-    skinViewer.height = 800;
+    // skinViewer.width = 600;
+    // skinViewer.height = 800;
     // Load another skin
     // skinViewer.loadSkin("img/skin2.png");
     // Load a cape

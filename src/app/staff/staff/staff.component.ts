@@ -69,7 +69,6 @@ export class StaffComponent implements OnInit, OnDestroy {
 
       this.showImg(staffInfo);
     });
-    return;
   }
 
   ngOnDestroy() {
