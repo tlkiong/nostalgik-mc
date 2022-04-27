@@ -1,3 +1,15 @@
+# v0.8.0 (Wed Apr 27 2022)
+
+#### 🚀 Enhancement
+
+- feat: home content done ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.7.6 (Sun Apr 24 2022)
 
 #### 🐛 Bug Fix
