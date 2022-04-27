@@ -1,3 +1,19 @@
+# v0.10.0 (Wed Apr 27 2022)
+
+#### 🚀 Enhancement
+
+- feat: add click to open for gallery & lint fix entire project ([@tlkiong](https://github.com/tlkiong))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github-personal:tlkiong/nostalgik-mc ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.9.0 (Wed Apr 27 2022)
 
 #### 🚀 Enhancement
