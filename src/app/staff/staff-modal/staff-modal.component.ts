@@ -26,7 +26,7 @@ export class StaffModalComponent
 
   _startSkinView3d() {
     const canvas = document.getElementById('skin-container');
-    const skin = `assets/staffs/${this.path}`;
+    const skin = this.path;
     const skinViewer = new skinview3d.SkinViewer({
       canvas,
       width: undefined,

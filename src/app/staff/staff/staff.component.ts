@@ -1,5 +1,5 @@
 import { ActivatedRoute, Router } from '@angular/router';
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 import { SimpleModalService } from 'ngx-simple-modal';
 import { StaffInfo } from '../interfaces/staff-info.interface';
 import { StaffModalComponent } from '../staff-modal/staff-modal.component';
@@ -13,27 +13,27 @@ declare const skinview3d: any;
   styleUrls: ['./staff.component.scss'],
   providers: [SimpleModalService],
 })
-export class StaffComponent implements OnInit, OnDestroy {
+export class StaffComponent implements OnInit, OnDestroy, AfterViewInit {
   STAFF_INFO: StaffInfo[] = [
     {
       ign: 'AlterDimension',
-      path: 'AlterDimension.png',
+      path: 'assets/staffs/AlterDimension.png',
     },
     {
       ign: 'CCStelleri',
-      path: 'CCStelleri.png',
+      path: 'assets/staffs/CCStelleri.png',
     },
     {
       ign: 'Mozo95',
-      path: 'Mozo95.png',
+      path: 'assets/staffs/Mozo95.png',
     },
     {
       ign: 'TheTrulyMad',
-      path: 'TheTrulyMad.png',
+      path: 'assets/staffs/TheTrulyMad.png',
     },
     {
       ign: 'Vinaco',
-      path: 'Vinaco.png',
+      path: 'assets/staffs/Vinaco.png',
     },
   ];
 
@@ -83,7 +83,7 @@ export class StaffComponent implements OnInit, OnDestroy {
 
   _startSkinView3d(info: StaffInfo) {
     const canvas = document.getElementById(`${info.ign}-skin-container`);
-    const skin = `assets/staffs/${info.path}`;
+    const skin = info.path;
     const skinViewer = new skinview3d.SkinViewer({
       canvas,
       width: undefined,

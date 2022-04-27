@@ -13,5 +13,6 @@ export class LoaderFullPageComponent implements OnInit {
     // setTimeout(() => {
     //   this.isLoading = false;
     // }, 2000);
+    return;
   }
 }

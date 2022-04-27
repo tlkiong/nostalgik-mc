@@ -8,6 +8,7 @@ import { Subject, take, takeUntil } from 'rxjs';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
+  providers: [SimpleModalService],
 })
 export class HomeComponent implements OnInit, OnDestroy {
   private unsubscribe$ = new Subject();

@@ -1,6 +1,6 @@
 <div class="images-container">
-  <figure *ngFor="let image of galleryImages">
-    <img [src]="'assets/gallery/' + image.path" [alt]="image.caption" />
+  <figure *ngFor="let image of GALLERY_IMAGES" (click)="showImg(image)">
+    <img [src]="image.path" [alt]="image.caption" />
     <figcaption>{{ image.caption }}</figcaption>
   </figure>
 </div>

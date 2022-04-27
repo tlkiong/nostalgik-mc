@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ServerModalComponent } from './server-modal.component';
+import { ImageModalComponent } from './image-modal.component';
 
-describe('ServerModalComponent', () => {
-  let component: ServerModalComponent;
-  let fixture: ComponentFixture<ServerModalComponent>;
+describe('ImageModalComponent', () => {
+  let component: ImageModalComponent;
+  let fixture: ComponentFixture<ImageModalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ServerModalComponent],
+      declarations: [ImageModalComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ServerModalComponent);
+    fixture = TestBed.createComponent(ImageModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
