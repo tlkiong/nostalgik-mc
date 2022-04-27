@@ -1,3 +1,21 @@
+# v0.9.0 (Wed Apr 27 2022)
+
+#### 🚀 Enhancement
+
+- feat: add skinviewer3d on staff list ([@tlkiong](https://github.com/tlkiong))
+- feat: gallery base style done ([@tlkiong](https://github.com/tlkiong))
+- feat: rules content done ([@tlkiong](https://github.com/tlkiong))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github-personal:tlkiong/nostalgik-mc ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.8.0 (Wed Apr 27 2022)
 
 #### 🚀 Enhancement
