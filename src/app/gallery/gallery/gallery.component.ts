@@ -33,6 +33,126 @@ export class GalleryComponent implements OnInit, OnDestroy {
       caption: 'Vinaco',
       path: 'assets/gallery/Vinaco.png',
     },
+    {
+      caption: 'AlterDimension',
+      path: 'assets/gallery/AlterDimension.png',
+    },
+    {
+      caption: 'CCStelleri',
+      path: 'assets/gallery/CCStelleri.png',
+    },
+    {
+      caption: 'Mozo95',
+      path: 'assets/gallery/Mozo95.png',
+    },
+    {
+      caption: 'TheTrulyMad',
+      path: 'assets/gallery/TheTrulyMad.png',
+    },
+    {
+      caption: 'Vinaco',
+      path: 'assets/gallery/Vinaco.png',
+    },
+    {
+      caption: 'AlterDimension',
+      path: 'assets/gallery/AlterDimension.png',
+    },
+    {
+      caption: 'CCStelleri',
+      path: 'assets/gallery/CCStelleri.png',
+    },
+    {
+      caption: 'Mozo95',
+      path: 'assets/gallery/Mozo95.png',
+    },
+    {
+      caption: 'TheTrulyMad',
+      path: 'assets/gallery/TheTrulyMad.png',
+    },
+    {
+      caption: 'Vinaco',
+      path: 'assets/gallery/Vinaco.png',
+    },
+    {
+      caption: 'AlterDimension',
+      path: 'assets/gallery/AlterDimension.png',
+    },
+    {
+      caption: 'CCStelleri',
+      path: 'assets/gallery/CCStelleri.png',
+    },
+    {
+      caption: 'Mozo95',
+      path: 'assets/gallery/Mozo95.png',
+    },
+    {
+      caption: 'TheTrulyMad',
+      path: 'assets/gallery/TheTrulyMad.png',
+    },
+    {
+      caption: 'Vinaco',
+      path: 'assets/gallery/Vinaco.png',
+    },
+    {
+      caption: 'AlterDimension',
+      path: 'assets/gallery/AlterDimension.png',
+    },
+    {
+      caption: 'CCStelleri',
+      path: 'assets/gallery/CCStelleri.png',
+    },
+    {
+      caption: 'Mozo95',
+      path: 'assets/gallery/Mozo95.png',
+    },
+    {
+      caption: 'TheTrulyMad',
+      path: 'assets/gallery/TheTrulyMad.png',
+    },
+    {
+      caption: 'Vinaco',
+      path: 'assets/gallery/Vinaco.png',
+    },
+    {
+      caption: 'AlterDimension',
+      path: 'assets/gallery/AlterDimension.png',
+    },
+    {
+      caption: 'CCStelleri',
+      path: 'assets/gallery/CCStelleri.png',
+    },
+    {
+      caption: 'Mozo95',
+      path: 'assets/gallery/Mozo95.png',
+    },
+    {
+      caption: 'TheTrulyMad',
+      path: 'assets/gallery/TheTrulyMad.png',
+    },
+    {
+      caption: 'Vinaco',
+      path: 'assets/gallery/Vinaco.png',
+    },
+    {
+      caption: 'AlterDimension',
+      path: 'assets/gallery/AlterDimension.png',
+    },
+    {
+      caption: 'CCStelleri',
+      path: 'assets/gallery/CCStelleri.png',
+    },
+    {
+      caption: 'Mozo95',
+      path: 'assets/gallery/Mozo95.png',
+    },
+    {
+      caption: 'TheTrulyMad',
+      path: 'assets/gallery/TheTrulyMad.png',
+    },
+    {
+      caption: 'Vinaco',
+      path: 'assets/gallery/Vinaco.png',
+    },
   ];
 
   private unsubscribe$ = new Subject();

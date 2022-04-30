@@ -11,8 +11,8 @@
 
 .content-container {
   flex: 1 0 auto;
-  margin: 3% 10%;
-  // margin: 0 1em;
-  // margin: 0 5em;
-  // max-width: 90%;
+  margin: 2em;
+  @media only screen and (min-width: 600px) {
+    margin: 5% 10%
+  }
 }

@@ -1,16 +1,21 @@
 .btns-container {
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  justify-content: space-between;
+  margin-top: 2em;
+  @media only screen and (min-width: 600px) {
+    justify-content: center;
+    button {
+      font-size: 20px;
+      margin: 0 40px;
+    }
+  }
 
   button {
     padding: 10px 20px;
     border: 1px solid #24df3c;
-    margin: 0 40px;
     border-radius: 5px;
-    font-size: 20px;
-    width: 200px;
-
+    font-size: 15px;
+    width: 125px;
   }
 
   .button-1 {

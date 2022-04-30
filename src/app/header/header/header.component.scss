@@ -3,12 +3,16 @@ $padding-width: 30px;
   height: var(--header-height);
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: center;
   border-bottom: 1px solid #f1f1f1;
   position: fixed;
-  width: calc(100% - #{$padding-width} - #{$padding-width});
-  padding: 0 $padding-width;
+  width: 100%;
   background-color: white;
+  @media only screen and (min-width: 400px) {
+    justify-content: space-between;
+    padding: 0 $padding-width;
+    width: calc(100% - #{$padding-width} - #{$padding-width});
+  }
   .routes-container {
     display: flex;
     a {
