@@ -1,3 +1,15 @@
+# v0.11.1 (Sat Apr 30 2022)
+
+#### 🐛 Bug Fix
+
+- fix: responsive styling on pop up images ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.11.0 (Sat Apr 30 2022)
 
 :tada: This release contains work from a new contributor! :tada:
