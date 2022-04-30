@@ -75,8 +75,12 @@ figure {
 }
 
 app-image-modal {
-  width: 50%;
-  height: calc(90% - 16px - 16px);
+  width: 90%;
+  height: calc(75% - 16px - 16px);
+  @media only screen and (min-width: 770px) {
+    width: 50%;
+    height: calc(90% - 16px - 16px);
+  }
 }
 
 .modal {
