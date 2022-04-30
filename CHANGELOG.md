@@ -1,3 +1,24 @@
+# v0.11.0 (Sat Apr 30 2022)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Oon Xin Tian ([@oxtian](https://github.com/oxtian)), for all your work!
+
+#### 🚀 Enhancement
+
+- feat: stylings including responsive styling [#5](https://github.com/tlkiong/nostalgik-mc/pull/5) ([@oxtian](https://github.com/oxtian) [@tlkiong](https://github.com/tlkiong))
+
+#### 🐛 Bug Fix
+
+- build: add yarn to tool-versions [#4](https://github.com/tlkiong/nostalgik-mc/pull/4) ([@oxtian](https://github.com/oxtian))
+
+#### Authors: 2
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+- Oon Xin Tian ([@oxtian](https://github.com/oxtian))
+
+---
+
 # v0.10.0 (Wed Apr 27 2022)
 
 #### 🚀 Enhancement
