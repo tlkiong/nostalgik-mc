@@ -1,3 +1,15 @@
+# v0.12.0 (Thu Oct 06 2022)
+
+#### 🚀 Enhancement
+
+- feat: trigger release ([@tlkiong](https://github.com/tlkiong))
+
+#### Authors: 1
+
+- Kiong ([@tlkiong](https://github.com/tlkiong))
+
+---
+
 # v0.11.2 (Thu Oct 06 2022)
 
 
